@@ -3,7 +3,7 @@
 ## Introduction
 The program detects people in more or less still motion in video surveillance. 
 It can use the common appoarch that makes uses of mog background modeling and subtraction process for contour detection. 
-It can also utilizes DNN approaches like Darknet YOLO or Mobilenet SSD for more accurate detections. The contour detection 
+It can also utilizes DNN approaches like Darknet YOLO or Mobilenet SSD for more accurate results. The contour detection 
 has been run in ARM environment as well.
 
 ## Program Build
