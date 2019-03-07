@@ -66,7 +66,7 @@ int main(int argc, char** argv)
     namedWindow(kWinName, WINDOW_NORMAL);
     int initialConf = (int)(confThreshold * 100);
     createTrackbar("Confidence threshold, %", kWinName, &initialConf, 99, callback, &dnnPeopleDetector);
-    
+
     // Open a video file or an image file or a camera stream.
     VideoCapture cap;
     if (parser.has("input"))
