@@ -11,7 +11,7 @@ has been run in ARM environment as well.
 ### Dependencies
 * `cmake`
 * `opencv >= 3.4.5`
-* [ARM Linux OpenCV enviroment settings](https://docs.opencv.org/master/d0/d76/tutorial_arm_crosscompile_with_cmake.html)
+* (Optional) [ARM Linux OpenCV enviroment settings](https://docs.opencv.org/master/d0/d76/tutorial_arm_crosscompile_with_cmake.html)
 
 ### Build
 Extract to `people-detector` directory
