@@ -18,7 +18,7 @@ else (TCLAP_FOUND)
 endif (TCLAP_FOUND)
 
 file(GLOB SOURCES
-        common/*.cpp
+        contour/*.cpp
         dnn/*.cpp)
 
 add_executable(people-detector main.cpp ${SOURCES})

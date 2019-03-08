@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 
 #include "common.hpp"
-#include "common/ContourDetecter.h"
+#include "contour/ContourDetecter.h"
 #include "dnn/DnnPeopleDetector.h"
 
 using namespace cv;
@@ -37,7 +37,7 @@ int main(int argc, char** argv)
     const string zooFile = parser.get<String>("zoo");
     keys += genPreprocArguments(modelName, zooFile);
     parser = CommandLineParser(argc, argv, keys);
-    parser.about("people detection using deep learning networks or common contour detection using OpenCV.");
+    parser.about("people detection using deep learning networks or contour contour detection using OpenCV.");
     if (argc == 1 || parser.has("help"))
     {
         parser.printMessage();
